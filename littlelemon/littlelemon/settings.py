@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles', #allows for staticfiles
-    'restaurant',
+    'restaurant', #install restaurant app
+    'rest_framework', #installs djangorestFramework
 ]
 
 MIDDLEWARE = [
