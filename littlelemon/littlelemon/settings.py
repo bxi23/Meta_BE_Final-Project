@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles', #allows for staticfiles
     'restaurant', #install restaurant app
     'rest_framework', #installs djangorestFramework
-    'rest_framework.authtoken',
+    'rest_framework.authtoken', #allows token authentication -add to admin/token
     'djoser', #imports djsoer authentication  - must be after rest_framework
 ]
 
